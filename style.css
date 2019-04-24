@@ -5,10 +5,21 @@ body {
 p {
     overflow-wrap: break-word;
 }
+#dropdownMenuLink {
+    background: rgba(6, 238, 25, 0.774);
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.dropdown-menu{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
 
 a {
     text-decoration: none;
 }
+
 #border {
 background:#ffffff;
 height: 75px;
