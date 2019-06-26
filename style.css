@@ -3,10 +3,12 @@ body {
     margin: 0;
     padding: 0;
 }
+
 p {
     overflow-wrap: break-word;
     color: white;
 }
+
 #dropdownMenuLink {
     background: rgba(6, 238, 25, 0.774);
     font-family: Arial, Helvetica, sans-serif;
@@ -21,12 +23,6 @@ p {
 a {
     text-decoration: none;
 }
-/*I want to make this toggler shift and glow when hovered
-- */
-/* .navbar-toggler-icon {
-    width:300px;
-    background-color: rgb(137, 21, 199);
-} */
 
 .flex-column {
     margin-right: 15px;
@@ -43,7 +39,7 @@ border-bottom-color: #4f80e0;
 .name {
     background: #818e8d;
     border-bottom-color: #45a049;
-    box-shadow: 5px 5px 2.5px rgb(255, 167, 74);
+    box-shadow: 5px 5px 2.5px rgb(230, 38, 64);
     height: 75px;
     width: 280px;
     text-align: center;
@@ -114,12 +110,22 @@ h1 {
 
 .sb {
     background: #cccccc;
-    box-shadow: 2.5px 2.5px .5px rgb(255, 167, 74);
+    box-shadow: 2.5px 2.5px .5px rgb(230, 38, 64);
     height: 2px;
     width: 240px;
     margin-left: 30px;
     margin-right: 30px;
     margin-top: -15px;   
+}
+
+.sb2 {
+    background: #cccccc;
+    box-shadow: 2.5px 2.5px .5px rgb(230, 38, 64);
+    height: 2px;
+    width: 740px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: -15px;  
 }
 
 .icons8-heroku { 
@@ -137,6 +143,7 @@ h2 {
     padding-left: 30px;
     padding-top: -60px;
  }
+
 .img {
     background: url("assets/images/elMorro.jpg");
     display: block;
@@ -144,8 +151,6 @@ h2 {
     height: 200px;
     width: 600px;
     padding: 4px;
-    
-    
 }
 
 .img-fluid {
@@ -161,8 +166,8 @@ h2 {
      padding: 10px;
      padding-top: 5px;
      padding-right: 5px;
-
  }
+
  #footer {
      position: fixed;
      height: 65px;
@@ -177,11 +182,12 @@ h2 {
      font-family: "Arials";
      line-height: 65px;
      color: #cccccc;
-
  }
+
  .push {
      height: 30px;
  }
+
  .dropdown-menu {
      background-image: url("https://wallpapertag.com/wallpaper/full/9/6/e/138252-4k-abstract-wallpaper-2560x1600-for-iphone-6.jpg");
      background-repeat: repeat;
@@ -195,13 +201,46 @@ h2 {
 
  #main2 {
     background: #6e6d6d;
-    box-shadow: 10px 10px 5px rgb(255, 167, 74);
+    box-shadow: 10px 10px 5px rgb(230, 38, 64);
     width: 300px;
     height: 350px;
-    margin-left: 220px;
+    margin-left: 10px;
     margin-right: 250px;
     margin-top: 60px;
     
+}
+
+#mainlang {
+    width: 800px;
+    height:350px;
+    background:#6e6d6d;
+    box-shadow: 10px 10px 5px rgb(230, 38, 64);
+    margin-top: -350px;
+    margin-left: 400px;
+}
+
+.css {
+    margin-left:40px;   
+}
+
+.jquery{
+    margin-left:76px
+}
+
+.js {
+    margin-left:115px;
+}
+
+.firedb{
+    margin-left:152px ;
+}
+
+.api {
+    margin-left:190px;
+}
+
+.exp {
+    margin-left:225px;
 }
 
 #fd {
@@ -210,55 +249,6 @@ h2 {
     margin-left: 50px;
 }
 
- #name { input [type=text], select, textarea 
-     width: 80%;
-     padding: 10px;
-     border: 1px solid ccc;
-     border-radius: 4px;
-     box-sizing: border-box;
-     margin-top: -50px;
-     margin-bottom: -300px;
-     resize: vertical;
- }
-
-#email { input [type=text], select, textarea
-    width: 100%;
-    padding: 10px;
-    border: 1px solid ccc;
-    border-radius: 4px;
-    box sizing: border-box;
-    margin-top: -40px;
-    margin-bottom: 2px;
-    resize: vertical;
-}
-
-#message { input [type=text], select, textarea
-    width: 100%;
-    padding: 20px;
-    border: 1px solid ccc;
-    border-radius: 4px;
-    box sizing: border-box;
-    margin-top: -30px;
-    margin-bottom: 2px;
-    resize: vertical;
-    text-align: left;
-    line-height: 2px;
-}
-
-input[type=submit] {
-    float: right;
-    background:#4CAF50;
-    color: white;
-    padding: 15px 40px;
-    margin-right: 550px;
-    margin-top: -15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-input[type=submit]:hover{
-    background-color:#45a049;
-}
 
            /* Portfolio css */
 #main3{
@@ -269,6 +259,7 @@ input[type=submit]:hover{
     margin-right: 200px;
     margin-top: 0;
 }
+
 .cont {
     margin-left:70px;
 }
@@ -276,6 +267,7 @@ input[type=submit]:hover{
 .btn-info {
     margin-left: 40px;
 }
+
 .fa-facebook {
     font-size: 50px;
     color:rgb(42, 188, 236)
@@ -286,6 +278,7 @@ input[type=submit]:hover{
     color:rgb(42, 188, 236)
 
 }
+
 .fa-instagram {
     font-size: 50px;
     color:rgb(42, 188, 236)
@@ -300,55 +293,15 @@ input[type=submit]:hover{
     text-align: left;
     margin-left: -145px;
 }
+
 .img1 {
-    /* float: left;
-    padding-top:10px;
-    padding-right: 30px;
-    margin-left: 50px; */
+    box-shadow: 10px 10px 5px rgb(230, 38, 64);
+   
+}
+
+.modal-body {
+    background-color: rgba(79, 133, 199, 0.952);
 }
     
-.img2 {
-    /* float: left;
-    padding-top: 10px;
-    padding-right: 30px;
-    margin-left: 50px; */
-}
 
-.img3 {
-    /* float: left;
-    padding-top: 10px;
-    padding-right: 30px;
-
-    position: absolute;
-    margin-top: 250px;
-    margin-left: 50px; */
-}
-
-.img4 {
-    /* float: left;
-    padding-top: 10px;
-    padding-right: 30px;
-    position: absolute;
-    margin-top: 250px;
-    margin-left: -230px; */
-    
-}
-
-.img5 {
-    /* float: left;
-    padding-top: 10px;
-    padding-right: 30px;
-    position: absolute;
-    margin-top: 5px;
-    margin-left: 50px; */
-}
-
-.img6 {
-    /* float: left;
-    padding-top: 10px;
-    padding-right: 30px;
-    position: absolute;
-    margin-top: 30px;
-    margin-left: 50px; */
-}
 
