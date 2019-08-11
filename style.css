@@ -189,7 +189,8 @@ h2 {
  }
 
  .dropdown-menu {
-     background-image: url("https://wallpapertag.com/wallpaper/full/9/6/e/138252-4k-abstract-wallpaper-2560x1600-for-iphone-6.jpg");
+     background-color: yellow;
+     /* background-image: url(""); */
      background-repeat: repeat;
      background-size: 800px; 
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -274,6 +275,7 @@ h2 {
 }
 
 .fa-github {
+    margin-left: 20px;
     font-size: 50px;
     color:rgb(42, 188, 236)
 
@@ -285,8 +287,14 @@ h2 {
 }
 
 .fa-twitter {
+    margin-left: 10px;
     font-size: 50px;
     color:rgb(42, 188, 236)
+}
+.fa-linkedin {
+    font-size: 50px;
+    color:rgb(42, 188, 236)
+
 }
 
 .port{
@@ -304,4 +312,11 @@ h2 {
 }
     
 
-
+p1{
+    
+    font-family: "Arial";
+    font-size: 18px;
+    line-height:24px;
+    color: white;
+   
+}
