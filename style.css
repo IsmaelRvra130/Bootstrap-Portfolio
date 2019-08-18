@@ -320,3 +320,72 @@ p1{
     color: white;
    
 }
+
+@media only screen and (max-width:768px){
+
+   .navbar-toggler-icon{
+       margin-right: 693px;
+   }
+    .img-fluid{
+        height: 380px;
+        width:500px;
+    }
+    p {
+        font-size: 24px;
+        line-height: 21px;
+    }
+    h1 {
+        margin-bottom: 130px
+    }
+    .img1{
+        margin-top: 80px;
+        height:260px;
+        width:200px;
+    }
+
+    #main2{
+        width: 600px;
+    }
+    
+    .sb{
+        width: 520px;
+    }
+
+    .sb2{
+        width:640px;
+    }
+    
+
+    #mainlang{
+        height:320px;
+        width:700px;
+        margin-top: 40px;
+        margin-left: 1px;
+        
+    }
+    a{
+        font-size:28px;
+    }
+    p1{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 40px;
+    }
+    #fab1{
+        font-size:150px;
+    }
+    #fab2{
+        font-size:150px;
+    }
+    #fab3{
+        font-size:150px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .name{
+        
+        margin-left:140px;
+    }
+
+}
