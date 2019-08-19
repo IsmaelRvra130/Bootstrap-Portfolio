@@ -460,4 +460,88 @@ p1{
         text-align: left;
     }
 
+    #main2{
+        margin-top: 20px;
+        height:280px;
+        width: 320px;
+    }
+
+    #mainlang{
+        height:250px;
+        width: 350px;
+        margin-top:280px;
+    }
+
+    .html{
+        height:50px;
+        width:50px;
+    }
+
+    .css{
+        float:left;
+        height:50px;
+        width:50px;
+        margin-top:-50px;
+        margin-left:52px;
+    }
+
+    .jquery{
+        float:left;
+        height:50px;
+        width:50px;
+        margin-top:-50px;
+        margin-left:105px;
+    }
+
+    .js{
+        float:left;
+        height:50px;
+        width:50px;
+        margin-top:-50px;
+        margin-left:160px;
+    }
+
+    .firedb{
+        float:left;
+        height:50px;
+        width:50px;
+        margin-top:-50px;
+        margin-left:215px;
+    }
+
+    .api{
+        float:left;
+        height:50px;
+        width:50px;
+        margin-top:-50px;
+        margin-left:270px;
+    }
+
+    .exp{
+        float:left;
+        height:50px;
+        width:50px;
+        margin-top:-50px;
+        margin-left:340px;
+    }
+
+    .html{
+        height:50px;
+        width:50px;
+    }
+
+    .html{
+        height:50px;
+        width:50px;
+    }
+
+    .html{
+        height:50px;
+        width:50px;
+    }
+
+    .html{
+        height:50px;
+        width:50px;
+    }
 }
